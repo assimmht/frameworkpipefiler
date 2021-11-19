@@ -3,9 +3,9 @@ const chalk = require('chalk')
 const fs = require('fs')
 
 
-module.exports = function write (input) {
+module.exports = function write (path, content) {
     
-    fs.writeFile('/Users/joe/test.txt', content, err => {
+    fs.writeFile(path, content, err => {
         if (err) {
           console.error(err)
           return

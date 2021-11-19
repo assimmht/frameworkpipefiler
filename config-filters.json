@@ -1,0 +1,21 @@
+{
+    "steps" : {
+        "0": {
+            "filter": "read",
+            "params" : ["text.txt"],
+            "next": "1"
+        },
+        "1": {
+            "filter": "capitalize",
+            "next": "2"
+        },
+        "2": {
+            "filter": "reverse",
+            "next": "3"
+        },
+        "3": {
+            "filter": "write",
+            "params" : ["outpout.txt"]
+        }
+    }
+}
