@@ -17,6 +17,9 @@
     "url": "https://github.com/assimmht/frameworkpipefilter/issues"
   },
   "homepage": "https://github.com/assimmht/frameworkpipefilter#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "conf": "^10.0.3"
+  }
 }
